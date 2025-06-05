@@ -1,7 +1,8 @@
 ﻿# Adding to a project
 
 ::: warning
-This documentation is for version `6.X.X`, if you want to find the other versions please visit our [old documentation](https://xdpxi.gitbook.io/xdlib)
+This documentation is for version `6.X.X`, if you want to find the other versions please visit
+our [old documentation](https://xdpxi.gitbook.io/xdlib)
 :::
 
 ## Setting up the Gradle
@@ -25,7 +26,8 @@ xdlib_version=VERSION
 
 ## Added to the requirements
 
-Inside of your `fabric.mod.json` you want to add the mod as a dependency in `depends`
+Inside your `fabric.mod.json` you want to add the mod as a dependency in `depends`
+
 ```json
 "depends": {
     "xdlib": ">=VERSION"
