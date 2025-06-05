@@ -27,7 +27,21 @@ export default defineConfig({
           {text: 'Blocks', link: '/docs/register/blocks'},
           {text: 'Armor', link: '/docs/register/armor'},
         ]
-      }
+      },
+      {
+        text: 'Client',
+        collapsed: true,
+        items: [
+          {text: 'Language Utilities', link: '/docs/client/lang-utils'},
+        ]
+      },
+      {
+        text: 'Loader',
+        collapsed: true,
+        items: [
+          {text: 'Mod properties', link: '/docs/register/mod'},
+        ]
+      },
     ],
 
     socialLinks: [
