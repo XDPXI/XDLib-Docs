@@ -1,13 +1,12 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "XD's Library",
   description: "This is a library for many uses and is included as an player counter for XDPXI's mods and modpacks!",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Support', link: '/support' },
       { text: 'Documentation', link: '/docs' }
     ],
 

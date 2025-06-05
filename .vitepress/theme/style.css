@@ -54,16 +54,19 @@
   --vp-c-brand-3: #fc6246;
   --vp-c-brand-soft: var(--vp-c-indigo-soft);
 
+  /* Tip */
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
   --vp-c-tip-3: var(--vp-c-brand-3);
   --vp-c-tip-soft: var(--vp-c-brand-soft);
 
+  /* Warning */
   --vp-c-warning-1: var(--vp-c-yellow-1);
   --vp-c-warning-2: var(--vp-c-yellow-2);
   --vp-c-warning-3: var(--vp-c-yellow-3);
   --vp-c-warning-soft: var(--vp-c-yellow-soft);
 
+  /* Danger */
   --vp-c-danger-1: var(--vp-c-red-1);
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
@@ -94,14 +97,14 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #ff4a49 30%,
-    #f88841
+    var(--vp-c-brand-2) 30%,
+    var(--vp-c-brand-1)
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #ff4a49 50%,
-    #f88841 50%
+    var(--vp-c-brand-2) 50%,
+    var(--vp-c-brand-1) 50%
   );
   --vp-home-hero-image-filter: blur(44px);
 }
@@ -136,4 +139,3 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
-
