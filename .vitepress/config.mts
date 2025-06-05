@@ -141,10 +141,6 @@ export default defineConfig({
             pattern: 'https://github.com/xdpxi/xdlib-docs/edit/main/:path'
         },
 
-        search: {
-            provider: 'local'
-        },
-
         footer: {
             message: 'NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG.',
             copyright: 'Copyright © 2024-2025 XDPXI'
