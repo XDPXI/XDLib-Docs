@@ -3,6 +3,9 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
   title: "XD's Library",
   description: "This is a library for many uses and is included as an player counter for XDPXI's mods and modpacks!",
+  lastUpdated: true,
+  metaChunk: true,
+  cleanUrls: true,
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },

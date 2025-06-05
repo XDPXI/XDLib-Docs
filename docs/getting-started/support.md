@@ -22,7 +22,7 @@ upgrade to version 5.X.X or newer immediately to ensure the security and stabili
 > 
 > :x: : Not Supported
 > 
->:heavy_multiplication_x: : Never Supported
+> :heavy_multiplication_x: : Never Supported
 
 ## Version Compatibility
 
