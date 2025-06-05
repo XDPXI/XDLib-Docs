@@ -6,7 +6,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Support', link: '/support' },
+      { text: 'Support', link: '/docs/getting-started/support' },
       { text: 'Documentation', link: '/docs' }
     ],
 
