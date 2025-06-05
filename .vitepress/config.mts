@@ -37,31 +37,6 @@ export default defineConfig({
                         {text: 'Support', link: '/docs/6.X.X/getting-started/support'},
                     ],
                 },
-                {
-                    text: 'Register',
-                    collapsed: true,
-                    items: [
-                        {text: 'Items', link: '/docs/6.X.X/register/items'},
-                        {text: 'Blocks', link: '/docs/6.X.X/register/blocks'},
-                        {text: 'Armor', link: '/docs/6.X.X/register/armor'},
-                        {text: 'Food', link: '/docs/6.X.X/register/food'},
-                        {text: 'Tools', link: '/docs/6.X.X/register/tools'},
-                    ],
-                },
-                {
-                    text: 'Client',
-                    collapsed: true,
-                    items: [
-                        {text: 'Language Utilities', link: '/docs/6.X.X/client/lang-utils'},
-                    ],
-                },
-                {
-                    text: 'Loader',
-                    collapsed: true,
-                    items: [
-                        {text: 'Mod properties', link: '/docs/6.X.X/loader/mod'},
-                    ],
-                },
             ],
             '/docs/5.X.X': [
                 {
