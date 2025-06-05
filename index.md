@@ -12,7 +12,7 @@ hero:
       link: https://modrinth.com/plugin/xdlib
     - theme: alt
       text: Documentation
-      link: /docs
+      link: /docs/getting-started/adding
 
 features:
   - title: Feature A

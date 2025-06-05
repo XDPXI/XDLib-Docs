@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import {defineConfig} from 'vitepress'
 
 export default defineConfig({
   title: "XD's Library",
@@ -7,14 +7,25 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Support', link: '/docs/getting-started/support' },
-      { text: 'Documentation', link: '/docs' }
+      { text: 'Documentation', link: '/docs/getting-started/adding', activeMatch: '^/docs(?!/getting-started/support)' },
     ],
 
     sidebar: [
       {
         text: 'Getting Started',
+        collapsed: false,
         items: [
-          { text: 'Support', link: '/docs/getting-started/support' }
+          {text: 'Adding to a project', link: '/docs/getting-started/adding'},
+          {text: 'Support', link: '/docs/getting-started/support'},
+        ]
+      },
+      {
+        text: 'Register',
+        collapsed: true,
+        items: [
+          {text: 'Items', link: '/docs/register/items'},
+          {text: 'Blocks', link: '/docs/register/blocks'},
+          {text: 'Armor', link: '/docs/register/armor'},
         ]
       }
     ],
