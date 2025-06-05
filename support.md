@@ -24,7 +24,7 @@ upgrade to version 5.X.X or newer immediately to ensure the security and stabili
 > 
 >:heavy_multiplication_x: : Never Supported
 
-## Platform Compatibility Matrix
+## Version Compatibility
 
 | Version   | Fabric             | Quilt              | Forge                    | NeoForge                 | Bukkit                   | BungeeCord               | Velocity                 |
 |:----------|:-------------------|:-------------------|:-------------------------|:-------------------------|:-------------------------|:-------------------------|:-------------------------|
