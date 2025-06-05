@@ -23,7 +23,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xdpxi/xdlib' },
-      { icon: 'modrinth', link: 'https://modrinth.com/plugins/xdlib' }
+      { icon: 'modrinth', link: 'https://modrinth.com/plugin/xdlib' }
     ]
   }
 })
