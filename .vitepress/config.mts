@@ -50,6 +50,19 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/xdpxi/xdlib' },
       { icon: 'modrinth', link: 'https://modrinth.com/plugin/xdlib' },
       { icon: 'discord', link: 'https://discord.gg/2y6EXbwgmQ' },
-    ]
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/xdpxi/xdlib-docs/edit/main/:path'
+    },
+
+    search: {
+      provider: 'local'
+    },
+
+    footer: {
+      message: 'NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG.',
+      copyright: 'Copyright © 2024-2025 XDPXI'
+    }
   }
 })
