@@ -16,49 +16,120 @@ export default defineConfig({
 
         nav: [
             {text: 'Home', link: '/'},
-            {text: 'Support', link: '/docs/getting-started/support'},
             {
                 text: 'Documentation',
-                link: '/docs/getting-started/adding',
-                activeMatch: '^/docs(?!/getting-started/support)'
+                activeMatch: '^/docs/(?:6\.X\.X|5\.X\.X|3\.X\.X)',
+                items: [
+                    {text: '3.X.X', link: '/docs/3.X.X/getting-started/adding', activeMatch: '/docs/3.X.X'},
+                    {text: '5.X.X', link: '/docs/5.X.X/getting-started/adding', activeMatch: '/docs/5.X.X'},
+                    {text: '6.X.X', link: '/docs/6.X.X/getting-started/adding', activeMatch: '/docs/6.X.X'},
+                ],
             },
         ],
 
-        sidebar: [
-            {
-                text: 'Getting Started',
-                collapsed: false,
-                items: [
-                    {text: 'Adding to a project', link: '/docs/getting-started/adding'},
-                    {text: 'Support', link: '/docs/getting-started/support'},
-                ]
-            },
-            {
-                text: 'Register',
-                collapsed: true,
-                items: [
-                    {text: 'Items', link: '/docs/register/items'},
-                    {text: 'Blocks', link: '/docs/register/blocks'},
-                    {text: 'Armor', link: '/docs/register/armor'},
-                    {text: 'Food', link: '/docs/register/food'},
-                    {text: 'Tools', link: '/docs/register/tools'},
-                ]
-            },
-            {
-                text: 'Client',
-                collapsed: true,
-                items: [
-                    {text: 'Language Utilities', link: '/docs/client/lang-utils'},
-                ]
-            },
-            {
-                text: 'Loader',
-                collapsed: true,
-                items: [
-                    {text: 'Mod properties', link: '/docs/register/mod'},
-                ]
-            },
-        ],
+        sidebar: {
+            '/docs/6.X.X': [
+                {
+                    text: 'Getting Started',
+                    collapsed: false,
+                    items: [
+                        {text: 'Adding to a project', link: '/docs/6.X.X/getting-started/adding'},
+                        {text: 'Support', link: '/docs/6.X.X/getting-started/support'},
+                    ],
+                },
+                {
+                    text: 'Register',
+                    collapsed: true,
+                    items: [
+                        {text: 'Items', link: '/docs/6.X.X/register/items'},
+                        {text: 'Blocks', link: '/docs/6.X.X/register/blocks'},
+                        {text: 'Armor', link: '/docs/6.X.X/register/armor'},
+                        {text: 'Food', link: '/docs/6.X.X/register/food'},
+                        {text: 'Tools', link: '/docs/6.X.X/register/tools'},
+                    ],
+                },
+                {
+                    text: 'Client',
+                    collapsed: true,
+                    items: [
+                        {text: 'Language Utilities', link: '/docs/6.X.X/client/lang-utils'},
+                    ],
+                },
+                {
+                    text: 'Loader',
+                    collapsed: true,
+                    items: [
+                        {text: 'Mod properties', link: '/docs/6.X.X/register/mod'},
+                    ],
+                },
+            ],
+            '/docs/5.X.X': [
+                {
+                    text: 'Getting Started',
+                    collapsed: false,
+                    items: [
+                        {text: 'Adding to a project', link: '/docs/5.X.X/getting-started/adding'},
+                        {text: 'Support', link: '/docs/5.X.X/getting-started/support'},
+                    ],
+                },
+                {
+                    text: 'Register',
+                    collapsed: true,
+                    items: [
+                        {text: 'Items', link: '/docs/5.X.X/register/items'},
+                        {text: 'Blocks', link: '/docs/5.X.X/register/blocks'},
+                    ],
+                },
+                {
+                    text: 'Client',
+                    collapsed: true,
+                    items: [
+                        {text: 'Language Utilities', link: '/docs/5.X.X/client/lang-utils'},
+                    ],
+                },
+                {
+                    text: 'Loader',
+                    collapsed: true,
+                    items: [
+                        {text: 'Mod properties', link: '/docs/5.X.X/register/mod'},
+                    ],
+                },
+            ],
+            '/docs/3.X.X': [
+                {
+                    text: 'Getting Started',
+                    collapsed: false,
+                    items: [
+                        {text: 'Adding to a project', link: '/docs/3.X.X/getting-started/adding'},
+                        {text: 'Support', link: '/docs/3.X.X/getting-started/support'},
+                    ],
+                },
+                {
+                    text: 'Register',
+                    collapsed: true,
+                    items: [
+                        {text: 'Items', link: '/docs/3.X.X/register/items'},
+                        {text: 'Blocks', link: '/docs/3.X.X/register/blocks'},
+                    ],
+                },
+                {
+                    text: 'Client',
+                    collapsed: true,
+                    items: [
+                        {text: 'Language Utilities', link: '/docs/3.X.X/client/lang-utils'},
+                        {text: 'Markdown Parser', link: '/docs/3.X.X/client/md-parser'},
+                        {text: 'Popup', link: '/docs/3.X.X/client/popup'},
+                    ],
+                },
+                {
+                    text: 'Loader',
+                    collapsed: true,
+                    items: [
+                        {text: 'Mod properties', link: '/docs/3.X.X/register/mod'},
+                    ],
+                },
+            ],
+        },
 
         socialLinks: [
             {icon: 'github', link: 'https://github.com/xdpxi/xdlib'},

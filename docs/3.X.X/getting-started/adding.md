@@ -1,8 +1,7 @@
 ﻿# Adding to a project
 
 ::: warning
-This documentation is for version `6.X.X`, if you want to find the other versions please visit
-our [old documentation](https://xdpxi.gitbook.io/xdlib)
+This documentation is for version `3.X.X`.
 :::
 
 ## Setting up the Gradle
