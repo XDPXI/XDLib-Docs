@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "XDLib"
-  text: "This is a library for many uses and is included as an player counter for XDPXI's mods and modpacks!"
-  tagline: My great project tagline
+  text: ""
+  tagline: This is a library for many uses and is included as an player counter for XDPXI's mods and modpacks!
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Downloads
+      link: https://modrinth.com/plugin/xdlib
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Documentation
+      link: /docs
 
 features:
   - title: Feature A

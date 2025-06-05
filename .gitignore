@@ -9,7 +9,8 @@ dist
 .pnpm-store # This is the default global store location, but can be configured
 
 # VitePress
-.vitepress/
+.vitepress/cache
+.vitepress/dist
 
 # Logs
 logs
