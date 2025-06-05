@@ -14,11 +14,15 @@ upgrade to version 5.X.X or newer immediately to ensure the security and stabili
 
 ## Support Key
 
-* :white_check_mark: : Actively Supported
-* :construction: : Under Development
-* :warning: : Final Major Release (Maintenance Mode)
-* :x: : Not Supported
-* :heavy_multiplication_x: : Never Supported
+> :white_check_mark: : Actively Supported
+> 
+> :construction: : Under Development
+> 
+> :warning: : Final Major Release (Maintenance Mode)
+> 
+> :x: : Not Supported
+> 
+>:heavy_multiplication_x: : Never Supported
 
 ## Platform Compatibility Matrix
 
