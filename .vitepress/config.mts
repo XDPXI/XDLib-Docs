@@ -26,6 +26,8 @@ export default defineConfig({
           {text: 'Items', link: '/docs/register/items'},
           {text: 'Blocks', link: '/docs/register/blocks'},
           {text: 'Armor', link: '/docs/register/armor'},
+          {text: 'Food', link: '/docs/register/food'},
+          {text: 'Tools', link: '/docs/register/tools'},
         ]
       },
       {
