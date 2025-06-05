@@ -2,13 +2,13 @@ import {defineConfig} from 'vitepress'
 
 export default defineConfig({
   title: "XD's Library",
-  head: [["link", { rel: "icon", sizes: "32x32", href: "/favicon.png" }]],
+  head: [["link", { rel: "icon", sizes: "32x32", href: "https://raw.githubusercontent.com/XDPXI/XDLib/version/5.X.X/assets/r-icon.png" }]],
   description: "This is a library for many uses and is included as an player counter for XDPXI's mods and modpacks!",
   lastUpdated: true,
   metaChunk: true,
   cleanUrls: true,
   themeConfig: {
-    logo: '/favicon.png',
+    logo: 'https://raw.githubusercontent.com/XDPXI/XDLib/version/5.X.X/assets/r-icon.png',
 
     nav: [
       { text: 'Home', link: '/' },
