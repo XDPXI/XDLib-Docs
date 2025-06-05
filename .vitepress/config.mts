@@ -59,7 +59,7 @@ export default defineConfig({
                     text: 'Loader',
                     collapsed: true,
                     items: [
-                        {text: 'Mod properties', link: '/docs/6.X.X/register/mod'},
+                        {text: 'Mod properties', link: '/docs/6.X.X/loader/mod'},
                     ],
                 },
             ],
@@ -91,7 +91,7 @@ export default defineConfig({
                     text: 'Loader',
                     collapsed: true,
                     items: [
-                        {text: 'Mod properties', link: '/docs/5.X.X/register/mod'},
+                        {text: 'Mod properties', link: '/docs/5.X.X/loader/mod'},
                     ],
                 },
             ],
@@ -125,7 +125,7 @@ export default defineConfig({
                     text: 'Loader',
                     collapsed: true,
                     items: [
-                        {text: 'Mod properties', link: '/docs/3.X.X/register/mod'},
+                        {text: 'Mod properties', link: '/docs/3.X.X/loader/mod'},
                     ],
                 },
             ],
