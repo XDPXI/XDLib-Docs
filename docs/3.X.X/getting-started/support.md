@@ -24,9 +24,9 @@ Versions 1.X.X and 2.X.X are no longer supported.
 
 ## Version Compatibility
 
-| Version                                                                    | Fabric             | Quilt              | Forge                    | NeoForge                 | Bukkit                   | BungeeCord               | Velocity                 |
+| Version (Minecraft Version)                                                | Fabric             | Quilt              | Forge                    | NeoForge                 | Bukkit                   | BungeeCord               | Velocity                 |
 |----------------------------------------------------------------------------|--------------------|--------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|
-| [**6.X.X** (1.21.4)](https://github.com/XDPXI/XDLib/tree/dev/6.X.X-1.21.4) | :construction:     | :construction:     | :heavy_multiplication_x: | :construction:           | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: |
+| [**6.X.X** (1.21.4)](https://github.com/XDPXI/XDLib/tree/dev/6.X.X-1.21.4) | :construction:     | :construction:     | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: |
 | [**6.X.X** (1.21.1)](https://github.com/XDPXI/XDLib/tree/dev/6.X.X-1.21.1) | :construction:     | :construction:     | :heavy_multiplication_x: | :construction:           | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: |
 | [**5.X.X**](https://github.com/XDPXI/XDLib/tree/version/5.X.X)             | :white_check_mark: | :white_check_mark: | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: |
 | [**4.X.X**](https://github.com/XDPXI/XDLib/tree/version/4.X.X)             | :warning:          | :warning:          | :warning:                | :warning:                | :warning:                | :heavy_multiplication_x: | :heavy_multiplication_x: |
