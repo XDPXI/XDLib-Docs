@@ -1,7 +1,7 @@
 # Items
 
 ```java
-import dev.xdpxi.xdlib.api.v5.Register;
+import dev.xdpxi.xdlib.api.v6.Register;
 import net.minecraft.item.Item;
 ```
 

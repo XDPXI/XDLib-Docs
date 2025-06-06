@@ -45,6 +45,21 @@ export default defineConfig({
                         {text: 'Blocks', link: '/docs/6.X.X/register/blocks'},
                     ],
                 },
+                {
+                    text: 'Client',
+                    collapsed: true,
+                    items: [
+                        {text: 'Language Utilities', link: '/docs/6.X.X/client/lang-utils'},
+                        {text: 'Mod Menu', link: '/docs/6.X.X/client/mod-menu'},
+                    ],
+                },
+                {
+                    text: 'Loader',
+                    collapsed: true,
+                    items: [
+                        {text: 'Mod properties', link: '/docs/6.X.X/loader/mod'},
+                    ],
+                },
             ],
             '/docs/5.X.X': [
                 {
