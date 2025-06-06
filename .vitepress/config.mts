@@ -37,6 +37,14 @@ export default defineConfig({
                         {text: 'Support', link: '/docs/6.X.X/getting-started/support'},
                     ],
                 },
+                {
+                    text: 'Register',
+                    collapsed: true,
+                    items: [
+                        {text: 'Items', link: '/docs/6.X.X/register/items'},
+                        {text: 'Blocks', link: '/docs/6.X.X/register/blocks'},
+                    ],
+                },
             ],
             '/docs/5.X.X': [
                 {
