@@ -29,6 +29,6 @@ Inside your `fabric.mod.json` you want to add the mod as a dependency in `depend
 
 ```json
 "depends": {
-"xdlib": ">=VERSION"
+  "xdlib": ">=VERSION"
 }
 ```
