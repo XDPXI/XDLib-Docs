@@ -3,11 +3,12 @@
 ## Important Notices
 
 ::: warning
-Version 4.X.X is entering its final major release phase. It will now only receive security and critical bug patches.
+Version 4.X.X is entering its final major release phase for Fabric, Forge and NeoForge. Those versions will now only
+receive security and critical bug patches.
 :::
 
 ::: danger
-Versions 1.X.X and 2.X.X are no longer supported.
+Versions 1.X.X, 2.X.X, 3.X.X and 5.X.X are no longer supported.
 :::
 
 ## Support Key
