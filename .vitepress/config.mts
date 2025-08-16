@@ -24,7 +24,7 @@ export default defineConfig({
                     {text: 'v2 (❌)', link: '/docs/v2/getting-started/adding', activeMatch: '/docs/v2'},
                     {text: 'v3 (❌)', link: '/docs/v3/getting-started/adding', activeMatch: '/docs/v3'},
                     {text: 'v4 (🚧)', link: '/docs/v4/getting-started/adding', activeMatch: '/docs/v4'},
-                    {text: 'v5 (❌)', link: '/docs/v5/getting-started/adding', activeMatch: '/v5'},
+                    {text: 'v5 (❌)', link: '/docs/v5/getting-started/adding', activeMatch: '/docs/v5'},
                     {text: 'v6 (✅)', link: '/docs/v6/getting-started/adding', activeMatch: '/docs/v6'},
                 ],
             },
@@ -93,6 +93,16 @@ export default defineConfig({
                     collapsed: true,
                     items: [
                         {text: 'Mod properties', link: '/docs/v5/loader/mod'},
+                    ],
+                },
+            ],
+            '/docs/v4': [
+                {
+                    text: 'Getting Started',
+                    collapsed: false,
+                    items: [
+                        {text: 'Adding to a project', link: '/docs/v4/getting-started/adding'},
+                        {text: 'Support', link: '/docs/v4/getting-started/support'},
                     ],
                 },
             ],
