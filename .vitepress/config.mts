@@ -5,125 +5,128 @@ export default defineConfig({
     head: [["link", {
         rel: "icon",
         sizes: "32x32",
-        href: "https://raw.githubusercontent.com/XDPXI/XDLib/version/5.X.X/assets/r-icon.png"
+        href: "https://raw.githubusercontent.com/XDPXI/XDLib/version/v5/assets/r-icon.png"
     }]],
     description: "This is a library for many uses and is included as an player counter for XDPXI's mods and modpacks!",
     lastUpdated: true,
     metaChunk: true,
     cleanUrls: true,
     themeConfig: {
-        logo: 'https://raw.githubusercontent.com/XDPXI/XDLib/version/5.X.X/assets/r-icon.png',
+        logo: 'https://raw.githubusercontent.com/XDPXI/XDLib/version/v5/assets/r-icon.png',
 
         nav: [
             {text: 'Home', link: '/'},
             {
                 text: 'Documentation',
-                activeMatch: '^/docs/(?:6\.X\.X|5\.X\.X|3\.X\.X)',
+                activeMatch: '^/docs/(?:v1|v2|v3|v4|v5|v6)',
                 items: [
-                    {text: '3.X.X', link: '/docs/3.X.X/getting-started/adding', activeMatch: '/docs/3.X.X'},
-                    {text: '5.X.X', link: '/docs/5.X.X/getting-started/adding', activeMatch: '/docs/5.X.X'},
-                    {text: '6.X.X', link: '/docs/6.X.X/getting-started/adding', activeMatch: '/docs/6.X.X'},
+                    {text: 'v1 (❌)', link: '/docs/v1/getting-started/adding', activeMatch: '/docs/v1'},
+                    {text: 'v2 (❌)', link: '/docs/v2/getting-started/adding', activeMatch: '/docs/v2'},
+                    {text: 'v3 (❌)', link: '/docs/v3/getting-started/adding', activeMatch: '/docs/v3'},
+                    {text: 'v4 (🚧)', link: '/docs/v4/getting-started/adding', activeMatch: '/docs/v4'},
+                    {text: 'v5 (❌)', link: '/docs/v5/getting-started/adding', activeMatch: '/v5'},
+                    {text: 'v6 (✅)', link: '/docs/v6/getting-started/adding', activeMatch: '/docs/v6'},
                 ],
             },
         ],
 
         sidebar: {
-            '/docs/6.X.X': [
+            '/docs/v6': [
                 {
                     text: 'Getting Started',
                     collapsed: false,
                     items: [
-                        {text: 'Adding to a project', link: '/docs/6.X.X/getting-started/adding'},
-                        {text: 'Support', link: '/docs/6.X.X/getting-started/support'},
+                        {text: 'Adding to a project', link: '/docs/v6/getting-started/adding'},
+                        {text: 'Support', link: '/docs/v6/getting-started/support'},
                     ],
                 },
                 {
                     text: 'Register',
                     collapsed: true,
                     items: [
-                        {text: 'Items', link: '/docs/6.X.X/register/items'},
-                        {text: 'Blocks', link: '/docs/6.X.X/register/blocks'},
+                        {text: 'Items', link: '/docs/v6/register/items'},
+                        {text: 'Blocks', link: '/docs/v6/register/blocks'},
                     ],
                 },
                 {
                     text: 'Client',
                     collapsed: true,
                     items: [
-                        {text: 'Language Utilities', link: '/docs/6.X.X/client/lang-utils'},
-                        {text: 'Mod Menu', link: '/docs/6.X.X/client/mod-menu'},
+                        {text: 'Language Utilities', link: '/docs/v6/client/lang-utils'},
+                        {text: 'Mod Menu', link: '/docs/v6/client/mod-menu'},
                     ],
                 },
                 {
                     text: 'Loader',
                     collapsed: true,
                     items: [
-                        {text: 'Mod properties', link: '/docs/6.X.X/loader/mod'},
+                        {text: 'Mod properties', link: '/docs/v6/loader/mod'},
                     ],
                 },
             ],
-            '/docs/5.X.X': [
+            '/docs/v5': [
                 {
                     text: 'Getting Started',
                     collapsed: false,
                     items: [
-                        {text: 'Adding to a project', link: '/docs/5.X.X/getting-started/adding'},
-                        {text: 'Support', link: '/docs/5.X.X/getting-started/support'},
+                        {text: 'Adding to a project', link: '/docs/v5/getting-started/adding'},
+                        {text: 'Support', link: '/docs/v5/getting-started/support'},
                     ],
                 },
                 {
                     text: 'Register',
                     collapsed: true,
                     items: [
-                        {text: 'Items', link: '/docs/5.X.X/register/items'},
-                        {text: 'Blocks', link: '/docs/5.X.X/register/blocks'},
+                        {text: 'Items', link: '/docs/v5/register/items'},
+                        {text: 'Blocks', link: '/docs/v5/register/blocks'},
                     ],
                 },
                 {
                     text: 'Client',
                     collapsed: true,
                     items: [
-                        {text: 'Language Utilities', link: '/docs/5.X.X/client/lang-utils'},
+                        {text: 'Language Utilities', link: '/docs/v5/client/lang-utils'},
                     ],
                 },
                 {
                     text: 'Loader',
                     collapsed: true,
                     items: [
-                        {text: 'Mod properties', link: '/docs/5.X.X/loader/mod'},
+                        {text: 'Mod properties', link: '/docs/v5/loader/mod'},
                     ],
                 },
             ],
-            '/docs/3.X.X': [
+            '/docs/v3': [
                 {
                     text: 'Getting Started',
                     collapsed: false,
                     items: [
-                        {text: 'Adding to a project', link: '/docs/3.X.X/getting-started/adding'},
-                        {text: 'Support', link: '/docs/3.X.X/getting-started/support'},
+                        {text: 'Adding to a project', link: '/docs/v3/getting-started/adding'},
+                        {text: 'Support', link: '/docs/v3/getting-started/support'},
                     ],
                 },
                 {
                     text: 'Register',
                     collapsed: true,
                     items: [
-                        {text: 'Items', link: '/docs/3.X.X/register/items'},
-                        {text: 'Blocks', link: '/docs/3.X.X/register/blocks'},
+                        {text: 'Items', link: '/docs/v3/register/items'},
+                        {text: 'Blocks', link: '/docs/v3/register/blocks'},
                     ],
                 },
                 {
                     text: 'Client',
                     collapsed: true,
                     items: [
-                        {text: 'Language Utilities', link: '/docs/3.X.X/client/lang-utils'},
-                        {text: 'Markdown Parser', link: '/docs/3.X.X/client/md-parser'},
-                        {text: 'Popup', link: '/docs/3.X.X/client/popup'},
+                        {text: 'Language Utilities', link: '/docs/v3/client/lang-utils'},
+                        {text: 'Markdown Parser', link: '/docs/v3/client/md-parser'},
+                        {text: 'Popup', link: '/docs/v3/client/popup'},
                     ],
                 },
                 {
                     text: 'Loader',
                     collapsed: true,
                     items: [
-                        {text: 'Mod properties', link: '/docs/3.X.X/loader/mod'},
+                        {text: 'Mod properties', link: '/docs/v3/loader/mod'},
                     ],
                 },
             ],
