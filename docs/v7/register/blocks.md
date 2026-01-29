@@ -1,7 +1,7 @@
 # Blocks
 
 ```java
-import dev.xdpxi.xdlib.api.v6.Register;
+import dev.xdpxi.xdlib.api.v7.Register;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.sound.BlockSoundGroup;

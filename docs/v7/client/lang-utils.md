@@ -1,7 +1,7 @@
 # Language Utilities
 
 ```java
-import dev.xdpxi.xdlib.api.v3.LangUtil;
+import dev.xdpxi.xdlib.api.v6.LangUtil;
 ```
 
 ## Getting the Language

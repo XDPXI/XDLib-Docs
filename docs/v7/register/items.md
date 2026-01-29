@@ -1,7 +1,7 @@
 # Items
 
 ```java
-import dev.xdpxi.xdlib.api.v3.Register;
+import dev.xdpxi.xdlib.api.v7.Register;
 import net.minecraft.item.Item;
 ```
 
@@ -11,7 +11,8 @@ To make a custom item you add `Register.registerItem()` to the Mod Initializer
 
 ```java
 test_item = Register.registerItem(
-                    new Item(new Item.Settings()),
+                    Item::new,
+                    new Item.Settings()
                     "test_item",
                     MOD_ID
             );

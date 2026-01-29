@@ -12,6 +12,5 @@ hero:
       link: https://modrinth.com/plugin/xdlib
     - theme: alt
       text: Documentation
-      link: /docs/v6/getting-started/adding
+      link: /docs/v7/getting-started/adding
 ---
-
