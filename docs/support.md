@@ -1,0 +1,35 @@
+# Security Policy
+
+## Important Notices
+
+> [!CAUTION]
+> Versions v1, v2, v3, v4, v5 and v6 are no longer supported.
+
+## Support Key
+
+> [!NOTE]
+> :white_check_mark: : Actively Supported
+>
+> :construction: : Under Development
+>
+> :x: : Not Supported
+>
+> `-` : Wasn't ever supported
+
+## Version Compatibility
+
+| Version                                                  | Fabric             | Quilt              | Forge | NeoForge           | Bukkit | BungeeCord | Velocity | Sponge |
+|----------------------------------------------------------|--------------------|--------------------|-------|--------------------|--------|------------|----------|--------|
+| [**v7**](https://github.com/XDPXI/XDLib/tree/v7)         | :white_check_mark: | :white_check_mark: | -     | :white_check_mark: | -      | -          | -        | -      |
+| [**v6**](https://github.com/XDPXI/XDLib/tree/v6-1.21.10) | :x:                | :x:                | -     | :x:                | -      | -          | -        | -      |
+| [**v5**](https://github.com/XDPXI/XDLib/tree/v5)         | :x:                | :x:                | -     | -                  | -      | -          | -        | -      |
+| [**v4**](https://github.com/XDPXI/XDLib/tree/v4)         | :x:                | :x:                | :x:   | :x:                | :x:    | :x:        | :x:      | :x:    |
+| [**v3**](https://github.com/XDPXI/XDLib/tree/v3)         | :x:                | :x:                | -     | :x:                | :x:    | :x:        | :x:      | -      |
+| **v2**                                                   | :x:                | :x:                | -     | :x:                | :x:    | :x:        | :x:      | -      |
+| **v1**                                                   | :x:                | :x:                | :x:   | -                  | :x:    | -          | -        | -      |
+
+## Reporting a Vulnerability
+
+To report a vulnerability create a new issue as the [
+`Report a security vulnerability`](https://github.com/XDPXI/XDLib/security/advisories/new) template or click the button
+below to notify us of any vulnerabilities.

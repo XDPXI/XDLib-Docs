@@ -75,7 +75,7 @@ export default defineConfig({
               text: "Adding to a project",
               link: "/docs/v6/getting-started/adding",
             },
-            { text: "Support", link: "/docs/v6/getting-started/support" },
+            { text: "Support", link: "/docs/support" },
           ],
         },
         {
@@ -109,7 +109,7 @@ export default defineConfig({
               text: "Adding to a project",
               link: "/docs/v5/getting-started/adding",
             },
-            { text: "Support", link: "/docs/v5/getting-started/support" },
+            { text: "Support", link: "/docs/support" },
           ],
         },
         {
@@ -142,7 +142,7 @@ export default defineConfig({
               text: "Adding to a project",
               link: "/docs/v4/getting-started/adding",
             },
-            { text: "Support", link: "/docs/v4/getting-started/support" },
+            { text: "Support", link: "/docs/v4/support" },
           ],
         },
       ],
@@ -155,7 +155,7 @@ export default defineConfig({
               text: "Adding to a project",
               link: "/docs/v3/getting-started/adding",
             },
-            { text: "Support", link: "/docs/v3/getting-started/support" },
+            { text: "Support", link: "/docs/support" },
           ],
         },
         {
