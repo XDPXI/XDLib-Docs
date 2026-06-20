@@ -8,7 +8,7 @@ export default defineConfig({
       {
         rel: "icon",
         sizes: "32x32",
-        href: "https://raw.githubusercontent.com/XDPXI/XDLib/version/v5/assets/r-icon.png",
+        href: "https://raw.githubusercontent.com/XDPXI/XDLib/version/v7/assets/r-icon.png",
       },
     ],
   ],
@@ -18,13 +18,13 @@ export default defineConfig({
   metaChunk: true,
   cleanUrls: true,
   themeConfig: {
-    logo: "https://raw.githubusercontent.com/XDPXI/XDLib/version/v5/assets/r-icon.png",
+    logo: "https://raw.githubusercontent.com/XDPXI/XDLib/version/v7/assets/r-icon.png",
 
     nav: [
       { text: "Home", link: "/" },
       {
         text: "Documentation",
-        activeMatch: "^/docs/(?:v1|v2|v3|v4|v5|v6)",
+        activeMatch: "^/docs/(?:v1|v2|v3|v4|v5|v6|v7)",
         items: [
           {
             text: "v1 (❌)",
@@ -58,14 +58,47 @@ export default defineConfig({
           },
           {
             text: "v7 (✅)",
-            link: "/docs/v6/getting-started/adding",
-            activeMatch: "/docs/v6",
+            link: "/docs/v7/getting-started/adding",
+            activeMatch: "/docs/v7",
           },
         ],
       },
     ],
 
     sidebar: {
+      "/docs/v7": [
+        {
+          text: "Getting Started",
+          collapsed: false,
+          items: [
+            {
+              text: "Adding to a project",
+              link: "/docs/v7/getting-started/adding",
+            },
+            { text: "Support", link: "/docs/v7/getting-started/support" },
+          ],
+        },
+        {
+          text: "Register",
+          collapsed: true,
+          items: [
+            { text: "Items", link: "/docs/v7/register/items" },
+            { text: "Blocks", link: "/docs/v7/register/blocks" },
+          ],
+        },
+        {
+          text: "Client",
+          collapsed: true,
+          items: [
+            { text: "Language Utilities", link: "/docs/v7/client/lang-utils" },
+          ],
+        },
+        {
+          text: "Loader",
+          collapsed: true,
+          items: [{ text: "Mod properties", link: "/docs/v7/loader/mod" }],
+        },
+      ],
       "/docs/v6": [
         {
           text: "Getting Started",
@@ -75,7 +108,7 @@ export default defineConfig({
               text: "Adding to a project",
               link: "/docs/v6/getting-started/adding",
             },
-            { text: "Support", link: "/docs/support" },
+            { text: "Support", link: "/docs/v6/getting-started/support" },
           ],
         },
         {
@@ -91,7 +124,6 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: "Language Utilities", link: "/docs/v6/client/lang-utils" },
-            { text: "Mod Menu", link: "/docs/v6/client/mod-menu" },
           ],
         },
         {
@@ -109,7 +141,7 @@ export default defineConfig({
               text: "Adding to a project",
               link: "/docs/v5/getting-started/adding",
             },
-            { text: "Support", link: "/docs/support" },
+            { text: "Support", link: "/docs/v5/getting-started/support" },
           ],
         },
         {
@@ -142,7 +174,7 @@ export default defineConfig({
               text: "Adding to a project",
               link: "/docs/v4/getting-started/adding",
             },
-            { text: "Support", link: "/docs/v4/support" },
+            { text: "Support", link: "/docs/v4/getting-started/support" },
           ],
         },
       ],
@@ -155,7 +187,7 @@ export default defineConfig({
               text: "Adding to a project",
               link: "/docs/v3/getting-started/adding",
             },
-            { text: "Support", link: "/docs/support" },
+            { text: "Support", link: "/docs/v3/getting-started/support" },
           ],
         },
         {
@@ -196,7 +228,7 @@ export default defineConfig({
     footer: {
       message:
         "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG.",
-      copyright: "Copyright © 2024-2025 XDPXI",
+      copyright: "Copyright © 2024-2026 XDPXI",
     },
   },
 });
